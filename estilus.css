@@ -1,0 +1,41 @@
+body {
+    background-color: #C2FFF7;
+    font-family: normal Arial;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#link {
+    text-align: center;
+    background-color: #0C1C59;
+}
+
+#titulo {
+    text-align: center;
+    background-color: #F39C12;
+}
+
+#result {
+    color: white;
+    background-color: #0066A2;
+    width: 80px;
+    padding-left: 13px;
+    float: left;
+}
+
+#luzes {
+    width: 130px;
+    height: 260px;
+    padding-left: 100px;
+}
+
+#lamp button {
+    font: 16px bold arial, sans-serif;
+    transform: translate(180px, -160px);
+    border-style: outset;
+    border-color: #000000;
+    border-radius: 15px;
+}

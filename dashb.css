@@ -1,0 +1,79 @@
+body {
+    background-color: #BDBDBD;
+    font-family: 'Courier New', monospace;
+    margin: 0 auto;
+}
+
+.board {
+    margin-left: 170px;
+    margin-top: 50px;
+    width: 500px;
+    height: 570px;
+    background-color: #0C1C59;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+}
+
+.quadro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imagem {
+    display: flex;
+    margin-top: 200px;
+    margin-right: 120px;
+}
+
+#titulo {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#result {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    justify-content: center;
+    color: black;
+    background-color: whitesmoke;
+    max-width: 300px;
+    max-height: 40px;
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+    font-weight: bold;
+    border-radius: 3%;
+}
+
+#lamp {
+    background-color: white;
+    margin-left: 145px;
+    width: 180px;
+    padding-left: 35px;
+}
+
+#botoes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+#botoes button {
+    font-family: 'Courier New', monospace;
+    font-size: 17px;
+    border-style: outset;
+    border-color: #000000;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projeto 1 - IOT</title>
+    <link rel="stylesheet" type="text/css" href="dashb.css">
+</head>
+
+<body>
+    <div class="quadro">
+        <div class="board">
+            <h1 id="titulo">
+                Exercícios de <br>Internet das Coisas
+            </h1>
+            <p id="result">
+                Luz apagada
+            </p>
+
+            <div id="lamp">
+                <img src="https://i.postimg.cc/v80VH51q/Loff.png" id="luz1">
+            </div>
+
+            <div id="botoes">
+                <button type=“button” onclick="liga()">Ligar</button>
+                <button type=“button” onclick="desliga()">Desligar</button>
+            </div>
+
+        </div>
+        <div class="imagem">
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1497601/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="dash.js"></script>
+</body>
+
+</html>

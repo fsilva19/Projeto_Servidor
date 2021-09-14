@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de login</title>
+    <style>
+        body {
+            margin: 0 auto;
+            font-family: -apple-system, 'Segoe UI';
+        }
+        
+        .geral {
+            display: flex;
+            flex-wrap: wrap;
+            position: absolute;
+            width: 300px;
+            height: 400px;
+            margin-top: 100px;
+            transform: translateX(515px);
+            background-color: #2980B9;
+            justify-content: space-between;
+            text-align: center;
+            border-radius: 27px;
+        }
+        
+        .geral h2 {
+            font-size: 30px;
+            padding-top: 20px;
+            padding-left: 33px;
+        }
+        
+        #formulario {
+            margin-top: -40px;
+        }
+        
+        a.link {
+            text-decoration: none;
+            color: black;
+            height: 30px;
+            width: 150px;
+            border-radius: 15px;
+            padding-top: 5px;
+            align-items: center;
+            text-align: center;
+            margin-left: 75px;
+            margin-top: -20px;
+            background-color: #154360;
+            color: white;
+        }
+        
+        a:hover {
+            background-color: #922B21;
+        }
+        
+        input.nome,
+        input.senha {
+            margin-top: 10px;
+            width: 200px;
+            height: 20px;
+            border-style: none;
+            border-radius: 10px;
+            background-color: #D5D8DC;
+            margin-bottom: 13px;
+        }
+        
+        input.botao {
+            border-style: none;
+            border-radius: 15px;
+            width: 70px;
+            height: 24px;
+            font-size: 15px;
+        }
+        
+        input.botao:hover {
+            background-color: #922B21;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="geral">
+        <h2>Página de Login</h2>
+        <form action="server.php" method="GET" id="formulario">
+            <label>Nome de usuário:</label> <input type="text" name="nomeuser" class="nome">
+            <label><br>Senha:<br></label> <input type="password" name="pass" class="senha">
+            <br>
+            <input type="submit" name="Enviar" class="botao">
+        </form>
+        <a href="cadastro.html" class="link">Cadastre-se aqui</a>
+    </div>
+</body>
+
+</html>
